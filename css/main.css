@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+body {
+    background-color: white;
+}
+
+.container {
+    width: 90%;
+    height: 650px;
+    background-image: url("../images/background-home-desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: 60px;
+    padding: 20px 0 20px 20px;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+img {
+    width: 80px;
+}
+
+hr {
+    display: block;
+    border: 1px solid darkgray;
+    width: 40%;
+}
+
+.nav ul {
+    background: linear-gradient(to right, black, darkblue, black);
+    padding: 0 60px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.nav ul li {
+    display: inline-block;
+    padding: 15px 0;
+}
+
+.nav ul li:hover {
+    border-bottom: 3px solid white;
+}
+
+.nav ul li:not(:first-of-type) {
+    margin-left: 40px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/*************************************************************************************/
+
+.content {
+    width: 80%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin: 10%;
+}
+
+.first {
+    width: 32%;
+}
+
+.one {
+    letter-spacing: 3px;
+}
+
+.two {
+    line-height: 1.7;
+    font-size: 13px;
+}
+
+h2 {
+    letter-spacing: 5px;
+    font-size: 100px;
+    margin: 15px 0;
+}
+
+.second {
+    position: relative;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    color: black;
+    font-size: 20px;
+}
